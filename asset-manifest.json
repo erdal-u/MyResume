@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.d1b05096.chunk.css",
-    "main.js": "/react-gh-pages/static/js/main.69faed40.chunk.js",
-    "main.js.map": "/react-gh-pages/static/js/main.69faed40.chunk.js.map",
-    "runtime-main.js": "/react-gh-pages/static/js/runtime-main.d24436ce.js",
-    "runtime-main.js.map": "/react-gh-pages/static/js/runtime-main.d24436ce.js.map",
-    "static/js/2.33af256b.chunk.js": "/react-gh-pages/static/js/2.33af256b.chunk.js",
-    "static/js/2.33af256b.chunk.js.map": "/react-gh-pages/static/js/2.33af256b.chunk.js.map",
-    "index.html": "/react-gh-pages/index.html",
-    "precache-manifest.afe2837165ebff248348332a9c9a7a97.js": "/react-gh-pages/precache-manifest.afe2837165ebff248348332a9c9a7a97.js",
-    "service-worker.js": "/react-gh-pages/service-worker.js",
-    "static/css/main.d1b05096.chunk.css.map": "/react-gh-pages/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.33af256b.chunk.js.LICENSE": "/react-gh-pages/static/js/2.33af256b.chunk.js.LICENSE",
-    "static/media/logo.svg": "/react-gh-pages/static/media/logo.5d5d9eef.svg"
+    "main.css": "/myresume/static/css/main.d1b05096.chunk.css",
+    "main.js": "/myresume/static/js/main.6fab577c.chunk.js",
+    "main.js.map": "/myresume/static/js/main.6fab577c.chunk.js.map",
+    "runtime-main.js": "/myresume/static/js/runtime-main.66d776e1.js",
+    "runtime-main.js.map": "/myresume/static/js/runtime-main.66d776e1.js.map",
+    "static/js/2.39942194.chunk.js": "/myresume/static/js/2.39942194.chunk.js",
+    "static/js/2.39942194.chunk.js.map": "/myresume/static/js/2.39942194.chunk.js.map",
+    "index.html": "/myresume/index.html",
+    "precache-manifest.bedb30e9d186d2fd7ff7e32ee3fff11d.js": "/myresume/precache-manifest.bedb30e9d186d2fd7ff7e32ee3fff11d.js",
+    "service-worker.js": "/myresume/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/myresume/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.39942194.chunk.js.LICENSE": "/myresume/static/js/2.39942194.chunk.js.LICENSE",
+    "static/media/ErdalCv.jpg": "/myresume/static/media/ErdalCv.ed129f86.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.d24436ce.js",
-    "static/js/2.33af256b.chunk.js",
+    "static/js/runtime-main.66d776e1.js",
+    "static/js/2.39942194.chunk.js",
     "static/css/main.d1b05096.chunk.css",
-    "static/js/main.69faed40.chunk.js"
+    "static/js/main.6fab577c.chunk.js"
   ]
 }
