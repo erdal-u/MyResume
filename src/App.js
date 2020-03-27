@@ -1,8 +1,17 @@
 import React from 'react';
 import ErdalCv from './assets/ErdalCv.jpg';
 import './App.css';
+import {observable} from 'mobx';
+
+import TodoList from "./TodosList";
+
+import { TodoStore } from "./TodoStore";
+import { render } from '@testing-library/react';
 
 function App() {
+
+  render() 
+  
   return (
     <div className="App">
       <header className="App-header">
@@ -19,6 +28,9 @@ function App() {
         >
           Learn React
         </a>
+        
+        <TodoList/>
+        
       </header>
     </div>
   );
