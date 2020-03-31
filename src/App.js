@@ -9,10 +9,10 @@ function App() {
     <div>
       <NavBar />
       <div className="App">
-        <header className="App-header">
+        <header>
           <img src={ErdalCv} className="App-logo" alt="ErdalCv" />
           <p>
-            <h1> detta är ett test för att se att det funkar</h1>
+            <h1> Mitt CV</h1>
           </p>
         </header>
       </div>
