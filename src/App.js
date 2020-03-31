@@ -8,12 +8,15 @@ function App() {
   return (
     <div>
       <NavBar />
-      <div className="App">
-        <header>
-          <img src={ErdalCv} className="App-logo" alt="ErdalCv" />
+      <div>
+        <header className="App-header">
           <p>
-            <h1> Mitt CV</h1>
+            <h1>Mitt CV </h1>
           </p>
+          <img src={ErdalCv} className="App-logo" alt="ErdalCv" />
+          <a href="https://erdal-u.github.io/myresume/">
+            erdal.ustalar@gmail.com
+          </a>
         </header>
       </div>
     </div>
