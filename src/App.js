@@ -1,25 +1,21 @@
 import React from "react";
-import ErdalCv from "./assets/ErdalCv.jpg";
-import "./App.css";
 
+import "./App.css";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import { HomePage } from "./page/HomePage";
 import NavBar from "./NavBar";
+import TodoStore from "./TodoStore";
 
 function App() {
   return (
-    <div>
+    <Router>
       <NavBar />
+
       <div>
-        <header className="App-header">
-          <p>
-            <h1>Mitt CV </h1>
-          </p>
-          <img src={ErdalCv} className="App-logo" alt="ErdalCv" />
-          <a href="https://erdal-u.github.io/myresume/">
-            erdal.ustalar@gmail.com
-          </a>
-        </header>
+        <Route exact path="/" component={HomePage} />
+        <Route path="/todostore" component={TodoStore} />
       </div>
-    </div>
+    </Router>
   );
 }
 

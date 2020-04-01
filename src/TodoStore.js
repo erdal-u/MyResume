@@ -1,37 +1,32 @@
-/*import { computed, observable, decorate } from "mobx"
+import React, { Component } from "react";
+import { extendObservable } from "mobx";
+import { observer } from "mobx-react";
 
-class Todo {
- value
- id
- complete
-
-  constructor(value) {
-    this.value = value
-    this.id = Date.now()
-    this.complete = false
+class TodoStore extends Component {
+  constructor() {
+    super();
+    extendObservable(this, {
+      counter: 0
+    });
+  }
+  onIncrement = () => {
+    this.counter++;
+  };
+  onDecrement = () => {
+    this.counter--;
+  };
+  render() {
+    return (
+      <div>
+        {this.counter}
+        <button onClick={this.onIncrement} type="button">
+          Increment
+        </button>
+        <button onClick={this.onDecrement} type="button">
+          Decrement
+        </button>
+      </div>
+    );
   }
 }
-
-export default class TodoStore {
-    todos = []
-     filter = ""
-  computed get filteredTodos() {
-    var matchesFilter = new RegExp(this.filter, "i")
-    return this.todos.filter(todo => !this.filter || matchesFilter.test(todo.value))
-  }
-
-  createTodo(value) {
-    this.todos.push(new Todo(value))
-  }
-
-  clearComplete = () => {
-    const incompleteTodos = this.todos.filter(todo => !todo.complete)
-    this.todos.replace(incompleteTodos)
-  }
-}
-decorate(TodoStore,{
-    value: observable,
-    id: observable,
-    complete: observable
-})
-*/
+export default observer(TodoStore);
