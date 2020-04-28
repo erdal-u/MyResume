@@ -1,5 +1,6 @@
 import React from "react";
 import { observer } from "mobx-react";
+import "./components/pages/pages.css";
 
 const TodoList = observer(
   class extends React.Component {
@@ -33,7 +34,7 @@ const TodoList = observer(
         </li>
       ));
       return (
-        <div>
+        <div className="bgImage" >
           <h1>todos</h1>
           <input className="new" onKeyPress={this.createNew.bind(this)} />
           <input
