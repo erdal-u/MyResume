@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { extendObservable } from "mobx";
 import { observer } from "mobx-react";
+import "./components/pages/pages.css";
 
 class TodoStore extends Component {
   constructor() {
@@ -17,7 +18,8 @@ class TodoStore extends Component {
   };
   render() {
     return (
-      <div>
+      <div className="bgImage">
+      <div >
         {this.counter}
         <button onClick={this.onIncrement} type="button">
           Increment
@@ -25,6 +27,7 @@ class TodoStore extends Component {
         <button onClick={this.onDecrement} type="button">
           Decrement
         </button>
+      </div>
       </div>
     );
   }

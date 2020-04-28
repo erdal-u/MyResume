@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import ErdalCv from "../assets/ErdalCv.jpg";
+import ErdalCv from "../../assets/ErdalCv.jpg";
 
 export class HomePage extends Component {
   render() {
@@ -18,5 +18,4 @@ export class HomePage extends Component {
     );
   }
 }
-
 export default HomePage;
