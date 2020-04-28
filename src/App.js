@@ -13,10 +13,10 @@ function App() {
       <NavBar />
 
       <div>
-        <Route exact path="/" component={HomePage} />
-        <Route path="/todostore" component={TodoStore} />
-        <Route path="/lotto" component={Lotto} />
-        <Route path="/piggame" component={PigGame}/>
+        <Route exact path="/myresume/" component={HomePage} />
+        <Route path="/myresume/todostore" component={TodoStore} />
+        <Route path="/myresume/lotto" component={Lotto} />
+        <Route path="/myresume/piggame" component={PigGame}/>
       </div>
     </Router>
   );
