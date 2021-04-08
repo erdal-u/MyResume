@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/myresume/static/css/main.af6f9225.chunk.css",
+    "main.js": "/myresume/static/js/main.fe93952c.chunk.js",
+    "main.js.map": "/myresume/static/js/main.fe93952c.chunk.js.map",
+    "runtime-main.js": "/myresume/static/js/runtime-main.66d776e1.js",
+    "runtime-main.js.map": "/myresume/static/js/runtime-main.66d776e1.js.map",
+    "static/js/2.38df2b46.chunk.js": "/myresume/static/js/2.38df2b46.chunk.js",
+    "static/js/2.38df2b46.chunk.js.map": "/myresume/static/js/2.38df2b46.chunk.js.map",
+    "index.html": "/myresume/index.html",
+    "precache-manifest.493f3b53bb647d2589f7d162c0b28160.js": "/myresume/precache-manifest.493f3b53bb647d2589f7d162c0b28160.js",
+    "service-worker.js": "/myresume/service-worker.js",
+    "static/css/main.af6f9225.chunk.css.map": "/myresume/static/css/main.af6f9225.chunk.css.map",
+    "static/js/2.38df2b46.chunk.js.LICENSE": "/myresume/static/js/2.38df2b46.chunk.js.LICENSE",
+    "static/media/ErdalCv.jpg": "/myresume/static/media/ErdalCv.ed129f86.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.66d776e1.js",
+    "static/js/2.38df2b46.chunk.js",
+    "static/css/main.af6f9225.chunk.css",
+    "static/js/main.fe93952c.chunk.js"
+  ]
+}
